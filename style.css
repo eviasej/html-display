@@ -1,13 +1,21 @@
-.box{
+/*.box{
     border: solid 2px violet;
-    /*padding-top: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+    padding-top: 15px;
     padding-right:10px ;
     padding-bottom:15px ;
-    padding-left:10px ;*/
-    padding: 15px;
+    padding-left:10px
     margin: 20px;
     width: 600px;
+    .container{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: dashed 5px forestgreen;
+    padding: 19px;
 }
+
 
 .link{
     border: solid 3px red;
@@ -21,3 +29,28 @@
     padding: 5px;
 
 }
+p{
+    margin-bottom: 30px;
+}
+.block{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 7px peachpuff;
+    width: 600px;
+} ;*/
+.list :nth-child(2n){
+    background-color: coral;
+}
+.list{
+    list-style: none;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+li{
+    border: double 8px olive;
+    margin-top: 15px;
+}
+p{ padding: 10px;}
